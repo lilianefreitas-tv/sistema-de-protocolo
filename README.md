@@ -6,27 +6,21 @@
 >Então a partir de análise das planilhas que eram utilizadas no controle, foi possível desenvolver uma ferramenta de auxilio no access para que as informações ficassem minimamente organizadas.</p>
 ><p align="justify">Visando aprimorar e expandir o uso da ferramenta para outras unidades do MP que possuem a mesma necessidade de controle e gerenciamento dos documentos protocolados, então surgiu a ideia de fazer o desenvolvimento de um sistema web mais robusto que possa atender à essa necessidade.</p>
 
-> ```
-> Utilizei localmente: Xamp + phpmyadmin + boostrap
-> ```
->
-> # Índice 
+> # :wrench: Ferramentas Utilizadas 
+>* Modelagem de Wireframes: <b>Balsamiq</b>
+>* Modelagem de Diagramas UML: <b>Astah Community</b>
+>* Servidor de Hospedagem Local: <b>XAMPP</b>
+>* Editor de Códigos: <b>Notepad++</b>
+>* Linguagens: <b>HTML, CSS, PHP, Framework Boostrap</b>
+>* Banco de dados: <b>MySQL PHPMyadmin</b>
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-  # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
-* [Conclusão](#conclusão)
+>  # :hammer: Funcionalidades do projeto
+>- `1`: Cadastro de Protocolos
+>- `2`: Consulta com campo de pesquisa
+>- `3`: Relatório por período e impressão em PDF e XLS
+>- `4`: Visualizar detalhes do cadastro de protocolo e imprimir etiqueta
+>- `5`: Cadastro e consulta de usuários
+
+
+>:computer:Desenvolvedora do Projeto: <b>Liliane de Freitas</b>
