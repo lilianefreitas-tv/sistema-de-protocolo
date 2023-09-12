@@ -6,6 +6,10 @@
 >Então a partir de análise das planilhas que eram utilizadas no controle, foi possível desenvolver uma ferramenta de auxilio no access para que as informações ficassem minimamente organizadas.</p>
 ><p align="justify">Visando aprimorar e expandir o uso da ferramenta para outras unidades do MP que possuem a mesma necessidade de controle e gerenciamento dos documentos protocolados, então surgiu a ideia de fazer o desenvolvimento de um sistema web mais robusto que possa atender à essa necessidade.</p>
 
+> # :file_folder: Documentação do sistema
+><p>Artefatos: arquivos referente a modelagem do sistema e apresentação geral</p>
+><p>ProtocoloGeral: arquivos de programação .php</p>
+> 
 > # :wrench: Ferramentas Utilizadas 
 >* Modelagem de Wireframes: <b>Balsamiq</b>
 >* Modelagem de Diagramas UML: <b>Astah Community</b>
