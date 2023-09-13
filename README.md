@@ -1,4 +1,4 @@
-# Sistema de Protocolo MPPA
+# Sistema de Protocolo
 > Status do Projeto: :construction: Projeto em construção :construction:
 > <p align="justify"><b>Objetivo do sistema:</b> gerenciar a entrada e encaminhamento dos documentos recebidos pelo setor de protocolo neste órgão.
 > <b>Como está funcionando?</b> Atualmente, o fluxo de dados funciona da seguinte maneira, o usuário interessado apresenta o pedido (ofício, requerimento, etc) na recepção do MP, então é registrado no sistema (atualmente em access) é gerado um nº de Protocolo interno, e então encaminhado para a Promotoria destinada.</p>
