@@ -26,6 +26,7 @@
 				$encaminhamento = $userdata['encaminhamento'];
 				$resumo= $userdata['resumo'];
 				$obs = $userdata['obs'];
+				$saj = $userdata['saj'];
 				$anexo =  $userdata['anexo'];
 				$protocolista = $userdata['protocolista'];
 				$emailinteressado = $userdata['emailinteressado'];
@@ -146,10 +147,16 @@
 						<label for="resumo">Resumo da demanda</label>
 						<textarea type="text" class="form-control" id="resumo" name="resumo" rows="3" value= ""> <?php  echo $resumo ?> </textarea>
 					</div>
+					
+					<div class="form-group">
+						<label for="obs">OBS</label>
+						<textarea type="text" class="form-control" id="obs" name="obs" rows="1" value= ""> <?php  echo $obs ?> </textarea>
+					</div>
+					
 					<div class="row">
 						<div class="col-md-4 mb-3">
-							<label for="obs">Obs. <span class="text-muted">(Optional)</span></label>
-							<input type="text" class="form-control" name="obs" id="obs" value="<?php  echo $obs?>">
+							<label for="saj">Nº SAJ</label>
+							<input type="text" class="form-control" name="saj" id="saj" value=" <?php  echo $saj ?>">
 						</div>
 						
 						<div class="col-md-4 mb-3">

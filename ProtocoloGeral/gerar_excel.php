@@ -10,7 +10,7 @@ $encaminhamento = filter_input(INPUT_GET, 'encaminhamento', FILTER_DEFAULT);
 //var_dump($data_final);
 
 // QUERY sql para pesquisar entre datas
-$query_usuarios = "SELECT data,id_protocolo,documento,interessado,encaminhamento,resumo,cargo,orgao 
+$query_usuarios = "SELECT data,id_protocolo,documento,interessado,encaminhamento,resumo,saj,obs 
 					FROM protocolo
 					
 					WHERE :encaminhamento IS NULL or encaminhamento = :encaminhamento and
@@ -40,7 +40,7 @@ if (($result_usuarios) and ($result_usuarios->rowCount() != 0)) {
     $resultado = fopen("php://output", 'w');
 
     // Criar o cabeçalho do Excel - Usar a função mb_convert_encoding para converter carateres especiais
-    $cabecalho = ['Data', 'Numero de Protocolo', 'Documento','Interessado','Encaminhamento','Resumo da Demanda' ];
+    $cabecalho = ['Data', 'Numero de Protocolo', 'Documento','Interessado','Encaminhamento','Resumo da Demanda','N SAJ','OBS'];
 
     // Escrever o cabeçalho no arquivo
     fputcsv($resultado, $cabecalho, ';');

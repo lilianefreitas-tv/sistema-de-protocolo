@@ -33,7 +33,7 @@
 						<a class="nav-link dropdown-toggle" href="home.php" id="dropdownconsulta"  data-toggle="dropdown" > Consultas</a>
 						<div class="dropdown-menu" aria-labelledby ="dropdownconsulta">
 							<a class="dropdown-item" href="ConsultaProtocolo.php">Protocolos</a>
-							<a class="dropdown-item" href="ConsultaUsuario.php">Usuários</a>
+							<!--<a class="dropdown-item" href="ConsultaUsuario.php">Usuários</a>-->
 							<a class="dropdown-item" href="relatorios.php">Relatórios</a>
 						</div>
 					</li>
